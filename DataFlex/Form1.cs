@@ -18,6 +18,7 @@ namespace DataFlex
         {
             InitializeComponent();
             lblMsj.Text = "";
+            txtSql.Focus();
         }
 
         private void btnTestConn_Click(object sender, EventArgs e)
